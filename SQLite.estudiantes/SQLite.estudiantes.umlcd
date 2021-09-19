@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_iFhTUBTsEeyciYlWy3W8eA">
+  <modelElement href="SQLite.estudiantes.uml#_irQdoBTsEeyciYlWy3W8eA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_jB6qIBTsEeyciYlWy3W8eA" sourceAnchor="0.0,31.0" targetAnchor="57.0,63.0" target="_jCvwkBTsEeyciYlWy3W8eA" source="_jB7RMBTsEeyciYlWy3W8eA">
+    <modelElement href="SQLite.estudiantes.uml#_i3-D8RTsEeyciYlWy3W8eA"/>
+    <bendpoints xmi:id="_IHywkBTtEeyciYlWy3W8eA" sourceX="-374" targetY="166"/>
+    <stereotypes xmi:id="_jB6qIRTsEeyciYlWy3W8eA" name="Reference">
+      <modelElement href="SQLite.estudiantes.uml#_i4ExoBTsEeyciYlWy3W8eA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_jB6qIhTsEeyciYlWy3W8eA" text="">
+      <visualProperties xmi:id="_jN8T8BTsEeyciYlWy3W8eA" position="1.0,-55.50000000000006"/>
+    </nameVisual>
+    <sourceRole xmi:id="_jB6qIxTsEeyciYlWy3W8eA" aggregationKind="NONE" name="">
+      <modelElement href="SQLite.estudiantes.uml#_i3-D8hTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_jN7F0BTsEeyciYlWy3W8eA" position="-37.375,-42.5"/>
+      <visibility xmi:id="_jB6qJBTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jB6qJRTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_jB6qJhTsEeyciYlWy3W8eA" aggregationKind="NONE" name="estudianteService" navigable="true">
+      <modelElement href="SQLite.estudiantes.uml#_i3aDQBTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_jN8T8RTsEeyciYlWy3W8eA" position="2.0,25.700000000000102"/>
+      <visibility xmi:id="_jB6qJxTsEeyciYlWy3W8eA" label="-"/>
+      <cardinality xmi:id="_jB6qKBTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_jCkxcBTsEeyciYlWy3W8eA" sourceAnchor="0.0,31.0" targetAnchor="67.0,78.0" target="_jCn0wBTsEeyciYlWy3W8eA" source="_jCvwkBTsEeyciYlWy3W8eA">
+    <modelElement href="SQLite.estudiantes.uml#_i3zr4BTsEeyciYlWy3W8eA"/>
+    <bendpoints xmi:id="_IHywkRTtEeyciYlWy3W8eA" sourceX="-217" targetY="147"/>
+    <stereotypes xmi:id="_jCmmohTsEeyciYlWy3W8eA" name="Reference">
+      <modelElement href="SQLite.estudiantes.uml#_i3-D8BTsEeyciYlWy3W8eA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_jCl_kBTsEeyciYlWy3W8eA" text="">
+      <visualProperties xmi:id="_jN-JIBTsEeyciYlWy3W8eA" position="1.0,-55.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_jCmmoBTsEeyciYlWy3W8eA" aggregationKind="NONE" name="">
+      <modelElement href="SQLite.estudiantes.uml#_i3zr4RTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_jN9iEBTsEeyciYlWy3W8eA" position="-27.5625,2.5"/>
+      <visibility xmi:id="_jCnNsRTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jCnNsBTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_jCmmoRTsEeyciYlWy3W8eA" aggregationKind="NONE" name="estudianteRepository" navigable="true">
+      <modelElement href="SQLite.estudiantes.uml#_i3Vx0BTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_jN-JIRTsEeyciYlWy3W8eA" position="2.0,27.125"/>
+      <stereotypes xmi:id="_jCnNtBTsEeyciYlWy3W8eA" name="Annotations">
+        <modelElement href="SQLite.estudiantes.uml#_i3WY4BTsEeyciYlWy3W8eA"/>
+      </stereotypes>
+      <visibility xmi:id="_jCnNsxTsEeyciYlWy3W8eA" label="-"/>
+      <cardinality xmi:id="_jCnNshTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jA3hQBTsEeyciYlWy3W8eA" name="MavenWrapperDownloader">
+    <modelElement href="SQLite.estudiantes.uml#_itPaoBTsEeyciYlWy3W8eA"/>
+    <visualProperties xmi:id="_jA4IUBTsEeyciYlWy3W8eA" position="-358.0,-25.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_jA4IURTsEeyciYlWy3W8eA" label="+"/>
+    <attributes xmi:id="_jA4IUhTsEeyciYlWy3W8eA" defaultValue="&quot;0.5.6&quot;" name="WRAPPER_VERSION" staticAttribute="true">
+      <modelElement href="SQLite.estudiantes.uml#_i3aqURTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB0EYBTtEeyciYlWy3W8eA"/>
+      <visibility xmi:id="_jA4IUxTsEeyciYlWy3W8eA" label="-"/>
+      <cardinality xmi:id="_jA4IVBTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <type xmi:id="_jA4IVRTsEeyciYlWy3W8eA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jA4IVhTsEeyciYlWy3W8eA" defaultValue="&quot;https://repo.maven.apache.org/maven2/io/takari/maven-wrapper/&quot;&#xA;        + WRAPPER_VERSION + &quot;/maven-wrapper-&quot; + WRAPPER_VERSION + &quot;.jar&quot;" name="DEFAULT_DOWNLOAD_URL" staticAttribute="true">
+      <modelElement href="SQLite.estudiantes.uml#_i3bRYBTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB0rcBTtEeyciYlWy3W8eA"/>
+      <visibility xmi:id="_jA4IVxTsEeyciYlWy3W8eA" label="-"/>
+      <cardinality xmi:id="_jA4IWBTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <type xmi:id="_jA4IWRTsEeyciYlWy3W8eA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jA4IWhTsEeyciYlWy3W8eA" defaultValue="&quot;.mvn/wrapper/maven-wrapper.properties&quot;" name="MAVEN_WRAPPER_PROPERTIES_PATH" staticAttribute="true">
+      <modelElement href="SQLite.estudiantes.uml#_i3bRYhTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB0rcRTtEeyciYlWy3W8eA"/>
+      <visibility xmi:id="_jA4IWxTsEeyciYlWy3W8eA" label="-"/>
+      <cardinality xmi:id="_jA4IXBTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <type xmi:id="_jA4IXRTsEeyciYlWy3W8eA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jA4IXhTsEeyciYlWy3W8eA" defaultValue="&quot;.mvn/wrapper/maven-wrapper.jar&quot;" name="MAVEN_WRAPPER_JAR_PATH" staticAttribute="true">
+      <modelElement href="SQLite.estudiantes.uml#_i3bRZBTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB0rchTtEeyciYlWy3W8eA"/>
+      <visibility xmi:id="_jA4IXxTsEeyciYlWy3W8eA" label="-"/>
+      <cardinality xmi:id="_jA4IYBTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <type xmi:id="_jA4IYRTsEeyciYlWy3W8eA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jA4IYhTsEeyciYlWy3W8eA" defaultValue="&quot;wrapperUrl&quot;" name="PROPERTY_NAME_WRAPPER_URL" staticAttribute="true">
+      <modelElement href="SQLite.estudiantes.uml#_i3b4cRTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB0rcxTtEeyciYlWy3W8eA"/>
+      <visibility xmi:id="_jA4IYxTsEeyciYlWy3W8eA" label="-"/>
+      <cardinality xmi:id="_jA4IZBTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <type xmi:id="_jA4IZRTsEeyciYlWy3W8eA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_jA4IZhTsEeyciYlWy3W8eA" name="main" staticOperation="true">
+      <modelElement href="SQLite.estudiantes.uml#_itR24BTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB0rdBTtEeyciYlWy3W8eA"/>
+      <stereotypes xmi:id="_jA4IZxTsEeyciYlWy3W8eA" name="LegacyStyledElement">
+        <modelElement href="SQLite.estudiantes.uml#_itSd8BTsEeyciYlWy3W8eA"/>
+      </stereotypes>
+      <visibility xmi:id="_jA4IaBTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jA4IaRTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_jA4IahTsEeyciYlWy3W8eA" name="args">
+        <modelElement href="SQLite.estudiantes.uml#_itR24RTsEeyciYlWy3W8eA"/>
+        <cardinality xmi:id="_jA4IaxTsEeyciYlWy3W8eA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_jA4IbBTsEeyciYlWy3W8eA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jA4IbRTsEeyciYlWy3W8eA" name="downloadFileFromURL" staticOperation="true">
+      <modelElement href="SQLite.estudiantes.uml#_i3SugRTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB1SgBTtEeyciYlWy3W8eA"/>
+      <visibility xmi:id="_jA4IbhTsEeyciYlWy3W8eA" label="-"/>
+      <cardinality xmi:id="_jA4IbxTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_jA4IcBTsEeyciYlWy3W8eA" name="urlString">
+        <modelElement href="SQLite.estudiantes.uml#_i3SughTsEeyciYlWy3W8eA"/>
+        <cardinality xmi:id="_jA4IcRTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+        <type xmi:id="_jA4IchTsEeyciYlWy3W8eA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jA4IcxTsEeyciYlWy3W8eA" name="destination">
+        <modelElement href="SQLite.estudiantes.uml#_i3SugxTsEeyciYlWy3W8eA"/>
+        <cardinality xmi:id="_jA4IdBTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+        <type xmi:id="_jA4IdRTsEeyciYlWy3W8eA" name="File">
+          <modelElement href="SQLite.estudiantes.uml#_i3F6MBTsEeyciYlWy3W8eA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jBuc4BTsEeyciYlWy3W8eA" name="Exception">
+    <modelElement href="SQLite.estudiantes.uml#_i3MA0RTsEeyciYlWy3W8eA"/>
+    <visualProperties xmi:id="_jBuc4RTsEeyciYlWy3W8eA" position="-167.0,180.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_jBuc4hTsEeyciYlWy3W8eA" name="Reference">
+      <modelElement href="SQLite.estudiantes.uml#_i3SugBTsEeyciYlWy3W8eA"/>
+    </stereotypes>
+    <visibility xmi:id="_jBuc4xTsEeyciYlWy3W8eA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jByHQBTsEeyciYlWy3W8eA" name="SpringBootAndSqLiteApplication">
+    <modelElement href="SQLite.estudiantes.uml#_isE9ABTsEeyciYlWy3W8eA"/>
+    <visualProperties xmi:id="_jByHQRTsEeyciYlWy3W8eA" position="-219.0,273.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_jByHQhTsEeyciYlWy3W8eA" name="LegacyStyledElement">
+      <modelElement href="SQLite.estudiantes.uml#_isInYBTsEeyciYlWy3W8eA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_jByHQxTsEeyciYlWy3W8eA" name="Annotations">
+      <modelElement href="SQLite.estudiantes.uml#_isOuABTsEeyciYlWy3W8eA"/>
+    </stereotypes>
+    <visibility xmi:id="_jByHRBTsEeyciYlWy3W8eA" label="+"/>
+    <operations xmi:id="_jByHRRTsEeyciYlWy3W8eA" name="main" staticOperation="true">
+      <modelElement href="SQLite.estudiantes.uml#_isLqsBTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB1SgRTtEeyciYlWy3W8eA"/>
+      <stereotypes xmi:id="_jByHRhTsEeyciYlWy3W8eA" name="StyledElement">
+        <modelElement href="SQLite.estudiantes.uml#_isM40BTsEeyciYlWy3W8eA"/>
+      </stereotypes>
+      <visibility xmi:id="_jByHRxTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jByHSBTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_jByHSRTsEeyciYlWy3W8eA" name="args">
+        <modelElement href="SQLite.estudiantes.uml#_isLqsRTsEeyciYlWy3W8eA"/>
+        <cardinality xmi:id="_jByHShTsEeyciYlWy3W8eA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_jByHSxTsEeyciYlWy3W8eA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jB7RMBTsEeyciYlWy3W8eA" name="EstudianteController" associationsOut="_jB6qIBTsEeyciYlWy3W8eA">
+    <modelElement href="SQLite.estudiantes.uml#_itAxIBTsEeyciYlWy3W8eA"/>
+    <visualProperties xmi:id="_jB7RMRTsEeyciYlWy3W8eA" position="-318.0,435.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_jB7RMhTsEeyciYlWy3W8eA" name="LegacyStyledElement">
+      <modelElement href="SQLite.estudiantes.uml#_itB_QBTsEeyciYlWy3W8eA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_jB7RMxTsEeyciYlWy3W8eA" name="Annotations">
+      <modelElement href="SQLite.estudiantes.uml#_itKiIBTsEeyciYlWy3W8eA"/>
+    </stereotypes>
+    <visibility xmi:id="_jB7RNBTsEeyciYlWy3W8eA" label="+"/>
+    <attributes xmi:id="_jB7RNRTsEeyciYlWy3W8eA" name="estudianteService">
+      <modelElement href="SQLite.estudiantes.uml#_i3aDQBTsEeyciYlWy3W8eA"/>
+      <stereotypes xmi:id="_jB7RNhTsEeyciYlWy3W8eA" name="Annotations">
+        <modelElement href="SQLite.estudiantes.uml#_i3aDQRTsEeyciYlWy3W8eA"/>
+      </stereotypes>
+      <visibility xmi:id="_jB7RNxTsEeyciYlWy3W8eA" label="-"/>
+      <cardinality xmi:id="_jB7ROBTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <type xmi:id="_jB7RORTsEeyciYlWy3W8eA" name="EstudianteService">
+        <modelElement href="SQLite.estudiantes.uml#_isU0oBTsEeyciYlWy3W8eA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_jB7ROhTsEeyciYlWy3W8eA" name="info">
+      <modelElement href="SQLite.estudiantes.uml#_itCmUBTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB1SghTtEeyciYlWy3W8eA"/>
+      <stereotypes xmi:id="_jB7ROxTsEeyciYlWy3W8eA" name="Annotations">
+        <modelElement href="SQLite.estudiantes.uml#_itD0cBTsEeyciYlWy3W8eA"/>
+      </stereotypes>
+      <visibility xmi:id="_jB7RPBTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jB7RPRTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jB7RPhTsEeyciYlWy3W8eA">
+        <modelElement href="SQLite.estudiantes.uml#_itDNYBTsEeyciYlWy3W8eA"/>
+        <type xmi:id="_jB7RPxTsEeyciYlWy3W8eA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jB7RQBTsEeyciYlWy3W8eA" name="readEstudiantes">
+      <modelElement href="SQLite.estudiantes.uml#_itEbgBTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB1SgxTtEeyciYlWy3W8eA"/>
+      <stereotypes xmi:id="_jB7RQRTsEeyciYlWy3W8eA" name="Annotations">
+        <modelElement href="SQLite.estudiantes.uml#_itFpoBTsEeyciYlWy3W8eA"/>
+      </stereotypes>
+      <visibility xmi:id="_jB7RQhTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jB7RQxTsEeyciYlWy3W8eA" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_jB7RRBTsEeyciYlWy3W8eA">
+        <modelElement href="SQLite.estudiantes.uml#_itEbgRTsEeyciYlWy3W8eA"/>
+        <type xmi:id="_jB7RRRTsEeyciYlWy3W8eA" name="Estudiante">
+          <modelElement href="SQLite.estudiantes.uml#_isl6YBTsEeyciYlWy3W8eA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jB7RRhTsEeyciYlWy3W8eA" name="readEstudiantesByCurso">
+      <modelElement href="SQLite.estudiantes.uml#_itGQsBTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB15kBTtEeyciYlWy3W8eA"/>
+      <stereotypes xmi:id="_jB7RRxTsEeyciYlWy3W8eA" name="Annotations">
+        <modelElement href="SQLite.estudiantes.uml#_itIs8BTsEeyciYlWy3W8eA"/>
+      </stereotypes>
+      <visibility xmi:id="_jB7RSBTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jB7RSRTsEeyciYlWy3W8eA" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_jB7RShTsEeyciYlWy3W8eA">
+        <modelElement href="SQLite.estudiantes.uml#_itG3wBTsEeyciYlWy3W8eA"/>
+        <type xmi:id="_jB7RSxTsEeyciYlWy3W8eA" name="Estudiante">
+          <modelElement href="SQLite.estudiantes.uml#_isl6YBTsEeyciYlWy3W8eA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_jB7RTBTsEeyciYlWy3W8eA" name="curso">
+        <modelElement href="SQLite.estudiantes.uml#_itGQsRTsEeyciYlWy3W8eA"/>
+        <cardinality xmi:id="_jB7RTRTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+        <type xmi:id="_jB7RThTsEeyciYlWy3W8eA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jB7RTxTsEeyciYlWy3W8eA" name="createEstudiante">
+      <modelElement href="SQLite.estudiantes.uml#_i2xxIBTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB15kRTtEeyciYlWy3W8eA"/>
+      <stereotypes xmi:id="_jB7RUBTsEeyciYlWy3W8eA" name="Annotations">
+        <modelElement href="SQLite.estudiantes.uml#_i2yYMhTsEeyciYlWy3W8eA"/>
+      </stereotypes>
+      <visibility xmi:id="_jB7RURTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jB7RUhTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jB7RUxTsEeyciYlWy3W8eA">
+        <modelElement href="SQLite.estudiantes.uml#_i2xxIhTsEeyciYlWy3W8eA"/>
+        <type xmi:id="_jB7RVBTsEeyciYlWy3W8eA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_jB7RVRTsEeyciYlWy3W8eA" name="estudiante">
+        <modelElement href="SQLite.estudiantes.uml#_i2xxIRTsEeyciYlWy3W8eA"/>
+        <cardinality xmi:id="_jB7RVhTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+        <type xmi:id="_jB7RVxTsEeyciYlWy3W8eA" name="Estudiante">
+          <modelElement href="SQLite.estudiantes.uml#_isl6YBTsEeyciYlWy3W8eA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jB7RWBTsEeyciYlWy3W8eA" name="updateEstudiante">
+      <modelElement href="SQLite.estudiantes.uml#_i2y_QBTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB15khTtEeyciYlWy3W8eA"/>
+      <stereotypes xmi:id="_jB7RWRTsEeyciYlWy3W8eA" name="Annotations">
+        <modelElement href="SQLite.estudiantes.uml#_i2zmUhTsEeyciYlWy3W8eA"/>
+      </stereotypes>
+      <visibility xmi:id="_jB7RWhTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jB7RWxTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jB7RXBTsEeyciYlWy3W8eA">
+        <modelElement href="SQLite.estudiantes.uml#_i2y_QhTsEeyciYlWy3W8eA"/>
+        <type xmi:id="_jB7RXRTsEeyciYlWy3W8eA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_jB7RXhTsEeyciYlWy3W8eA" name="estudiante">
+        <modelElement href="SQLite.estudiantes.uml#_i2y_QRTsEeyciYlWy3W8eA"/>
+        <cardinality xmi:id="_jB7RXxTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+        <type xmi:id="_jB7RYBTsEeyciYlWy3W8eA" name="Estudiante">
+          <modelElement href="SQLite.estudiantes.uml#_isl6YBTsEeyciYlWy3W8eA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jB7RYRTsEeyciYlWy3W8eA" name="deleteEstudiante">
+      <modelElement href="SQLite.estudiantes.uml#_i20NYhTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB2goBTtEeyciYlWy3W8eA"/>
+      <stereotypes xmi:id="_jB7RYhTsEeyciYlWy3W8eA" name="Annotations">
+        <modelElement href="SQLite.estudiantes.uml#_i21bgBTsEeyciYlWy3W8eA"/>
+      </stereotypes>
+      <visibility xmi:id="_jB7RYxTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jB7RZBTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jB7RZRTsEeyciYlWy3W8eA">
+        <modelElement href="SQLite.estudiantes.uml#_i200cBTsEeyciYlWy3W8eA"/>
+        <type xmi:id="_jB7RZhTsEeyciYlWy3W8eA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_jB7RZxTsEeyciYlWy3W8eA" name="estudiante">
+        <modelElement href="SQLite.estudiantes.uml#_i20NYxTsEeyciYlWy3W8eA"/>
+        <cardinality xmi:id="_jB7RaBTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+        <type xmi:id="_jB7RaRTsEeyciYlWy3W8eA" name="Estudiante">
+          <modelElement href="SQLite.estudiantes.uml#_isl6YBTsEeyciYlWy3W8eA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jCLv4BTsEeyciYlWy3W8eA" name="SQLiteDialect">
+    <modelElement href="SQLite.estudiantes.uml#_istPIBTsEeyciYlWy3W8eA"/>
+    <visualProperties xmi:id="_jCLv4RTsEeyciYlWy3W8eA" position="178.0,-282.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_jCLv4hTsEeyciYlWy3W8eA" label="+"/>
+    <operations xmi:id="_jCLv4xTsEeyciYlWy3W8eA" name="SQLiteDialect">
+      <modelElement href="SQLite.estudiantes.uml#_isvEUBTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB2goRTtEeyciYlWy3W8eA"/>
+      <keywords xmi:id="_jCLv5BTsEeyciYlWy3W8eA" keyword="create"/>
+      <visibility xmi:id="_jCLv5RTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jCLv5hTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jCLv5xTsEeyciYlWy3W8eA">
+        <modelElement href="SQLite.estudiantes.uml#_isvrYhTsEeyciYlWy3W8eA"/>
+        <type xmi:id="_jCLv6BTsEeyciYlWy3W8eA" name="SQLiteDialect">
+          <modelElement href="SQLite.estudiantes.uml#_istPIBTsEeyciYlWy3W8eA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jCLv6RTsEeyciYlWy3W8eA" name="supportsIdentityColumns">
+      <modelElement href="SQLite.estudiantes.uml#_isvrYxTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB2gohTtEeyciYlWy3W8eA"/>
+      <visibility xmi:id="_jCLv6hTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jCLv6xTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jCLv7BTsEeyciYlWy3W8eA">
+        <modelElement href="SQLite.estudiantes.uml#_iswScBTsEeyciYlWy3W8eA"/>
+        <type xmi:id="_jCLv7RTsEeyciYlWy3W8eA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jCLv7hTsEeyciYlWy3W8eA" name="hasDataTypeInIdentityColumn">
+      <modelElement href="SQLite.estudiantes.uml#_iswScRTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB2goxTtEeyciYlWy3W8eA"/>
+      <visibility xmi:id="_jCLv7xTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jCLv8BTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jCLv8RTsEeyciYlWy3W8eA">
+        <modelElement href="SQLite.estudiantes.uml#_isw5gBTsEeyciYlWy3W8eA"/>
+        <type xmi:id="_jCLv8hTsEeyciYlWy3W8eA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jCLv8xTsEeyciYlWy3W8eA" name="getIdentityColumnString">
+      <modelElement href="SQLite.estudiantes.uml#_isw5gRTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB3HsBTtEeyciYlWy3W8eA"/>
+      <visibility xmi:id="_jCLv9BTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jCLv9RTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jCLv9hTsEeyciYlWy3W8eA">
+        <modelElement href="SQLite.estudiantes.uml#_isw5ghTsEeyciYlWy3W8eA"/>
+        <type xmi:id="_jCLv9xTsEeyciYlWy3W8eA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jCLv-BTsEeyciYlWy3W8eA" name="getIdentitySelectString">
+      <modelElement href="SQLite.estudiantes.uml#_isxgkBTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB3HsRTtEeyciYlWy3W8eA"/>
+      <visibility xmi:id="_jCLv-RTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jCLv-hTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jCLv-xTsEeyciYlWy3W8eA">
+        <modelElement href="SQLite.estudiantes.uml#_isyHoBTsEeyciYlWy3W8eA"/>
+        <type xmi:id="_jCLv_BTsEeyciYlWy3W8eA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jCLv_RTsEeyciYlWy3W8eA" name="supportsLimit">
+      <modelElement href="SQLite.estudiantes.uml#_isyHoRTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB3HshTtEeyciYlWy3W8eA"/>
+      <visibility xmi:id="_jCLv_hTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jCLv_xTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jCLwABTsEeyciYlWy3W8eA">
+        <modelElement href="SQLite.estudiantes.uml#_isyusBTsEeyciYlWy3W8eA"/>
+        <type xmi:id="_jCLwARTsEeyciYlWy3W8eA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jCLwAhTsEeyciYlWy3W8eA" name="getLimitString">
+      <modelElement href="SQLite.estudiantes.uml#_isyusRTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB3HsxTtEeyciYlWy3W8eA"/>
+      <visibility xmi:id="_jCLwAxTsEeyciYlWy3W8eA" label="#"/>
+      <cardinality xmi:id="_jCLwBBTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jCLwBRTsEeyciYlWy3W8eA">
+        <modelElement href="SQLite.estudiantes.uml#_iszVwhTsEeyciYlWy3W8eA"/>
+        <type xmi:id="_jCLwBhTsEeyciYlWy3W8eA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_jCLwBxTsEeyciYlWy3W8eA" name="query">
+        <modelElement href="SQLite.estudiantes.uml#_iszVwBTsEeyciYlWy3W8eA"/>
+        <cardinality xmi:id="_jCLwCBTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+        <type xmi:id="_jCLwCRTsEeyciYlWy3W8eA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jCLwChTsEeyciYlWy3W8eA" name="hasOffset">
+        <modelElement href="SQLite.estudiantes.uml#_iszVwRTsEeyciYlWy3W8eA"/>
+        <cardinality xmi:id="_jCLwCxTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+        <type xmi:id="_jCLwDBTsEeyciYlWy3W8eA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jCLwDRTsEeyciYlWy3W8eA" name="supportsTemporaryTables">
+      <modelElement href="SQLite.estudiantes.uml#_isz80BTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB3HtBTtEeyciYlWy3W8eA"/>
+      <visibility xmi:id="_jCLwDhTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jCLwDxTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jCLwEBTsEeyciYlWy3W8eA">
+        <modelElement href="SQLite.estudiantes.uml#_isz80RTsEeyciYlWy3W8eA"/>
+        <type xmi:id="_jCLwERTsEeyciYlWy3W8eA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jCLwEhTsEeyciYlWy3W8eA" name="getCreateTemporaryTableString">
+      <modelElement href="SQLite.estudiantes.uml#_is0j4BTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB3HtRTtEeyciYlWy3W8eA"/>
+      <visibility xmi:id="_jCLwExTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jCLwFBTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jCLwFRTsEeyciYlWy3W8eA">
+        <modelElement href="SQLite.estudiantes.uml#_is0j4RTsEeyciYlWy3W8eA"/>
+        <type xmi:id="_jCLwFhTsEeyciYlWy3W8eA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jCLwFxTsEeyciYlWy3W8eA" name="dropTemporaryTableAfterUse">
+      <modelElement href="SQLite.estudiantes.uml#_is1K8BTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB3HthTtEeyciYlWy3W8eA"/>
+      <visibility xmi:id="_jCLwGBTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jCLwGRTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jCLwGhTsEeyciYlWy3W8eA">
+        <modelElement href="SQLite.estudiantes.uml#_is1K8RTsEeyciYlWy3W8eA"/>
+        <type xmi:id="_jCLwGxTsEeyciYlWy3W8eA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jCLwHBTsEeyciYlWy3W8eA" name="supportsCurrentTimestampSelection">
+      <modelElement href="SQLite.estudiantes.uml#_is1yABTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB3HtxTtEeyciYlWy3W8eA"/>
+      <visibility xmi:id="_jCLwHRTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jCLwHhTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jCLwHxTsEeyciYlWy3W8eA">
+        <modelElement href="SQLite.estudiantes.uml#_is1yARTsEeyciYlWy3W8eA"/>
+        <type xmi:id="_jCLwIBTsEeyciYlWy3W8eA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jCLwIRTsEeyciYlWy3W8eA" name="isCurrentTimestampSelectStringCallable">
+      <modelElement href="SQLite.estudiantes.uml#_is2ZEBTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB3uwBTtEeyciYlWy3W8eA"/>
+      <visibility xmi:id="_jCLwIhTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jCLwIxTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jCLwJBTsEeyciYlWy3W8eA">
+        <modelElement href="SQLite.estudiantes.uml#_is2ZERTsEeyciYlWy3W8eA"/>
+        <type xmi:id="_jCLwJRTsEeyciYlWy3W8eA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jCLwJhTsEeyciYlWy3W8eA" name="getCurrentTimestampSelectString">
+      <modelElement href="SQLite.estudiantes.uml#_is3AIBTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB3uwRTtEeyciYlWy3W8eA"/>
+      <visibility xmi:id="_jCLwJxTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jCLwKBTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jCLwKRTsEeyciYlWy3W8eA">
+        <modelElement href="SQLite.estudiantes.uml#_is3AIRTsEeyciYlWy3W8eA"/>
+        <type xmi:id="_jCLwKhTsEeyciYlWy3W8eA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jCLwKxTsEeyciYlWy3W8eA" name="supportsUnionAll">
+      <modelElement href="SQLite.estudiantes.uml#_is3nMBTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB3uwhTtEeyciYlWy3W8eA"/>
+      <visibility xmi:id="_jCLwLBTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jCLwLRTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jCLwLhTsEeyciYlWy3W8eA">
+        <modelElement href="SQLite.estudiantes.uml#_is3nMRTsEeyciYlWy3W8eA"/>
+        <type xmi:id="_jCLwLxTsEeyciYlWy3W8eA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jCLwMBTsEeyciYlWy3W8eA" name="hasAlterTable">
+      <modelElement href="SQLite.estudiantes.uml#_is4OQBTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB3uwxTtEeyciYlWy3W8eA"/>
+      <visibility xmi:id="_jCLwMRTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jCLwMhTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jCLwMxTsEeyciYlWy3W8eA">
+        <modelElement href="SQLite.estudiantes.uml#_is4OQRTsEeyciYlWy3W8eA"/>
+        <type xmi:id="_jCLwNBTsEeyciYlWy3W8eA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jCLwNRTsEeyciYlWy3W8eA" name="dropConstraints">
+      <modelElement href="SQLite.estudiantes.uml#_is41UBTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB3uxBTtEeyciYlWy3W8eA"/>
+      <visibility xmi:id="_jCLwNhTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jCLwNxTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jCLwOBTsEeyciYlWy3W8eA">
+        <modelElement href="SQLite.estudiantes.uml#_is41URTsEeyciYlWy3W8eA"/>
+        <type xmi:id="_jCLwORTsEeyciYlWy3W8eA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jCMW8BTsEeyciYlWy3W8eA" name="getAddColumnString">
+      <modelElement href="SQLite.estudiantes.uml#_is5cYBTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB3uxRTtEeyciYlWy3W8eA"/>
+      <visibility xmi:id="_jCMW8RTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jCMW8hTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jCMW8xTsEeyciYlWy3W8eA">
+        <modelElement href="SQLite.estudiantes.uml#_is5cYRTsEeyciYlWy3W8eA"/>
+        <type xmi:id="_jCMW9BTsEeyciYlWy3W8eA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jCMW9RTsEeyciYlWy3W8eA" name="getForUpdateString">
+      <modelElement href="SQLite.estudiantes.uml#_is6DcBTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB3uxhTtEeyciYlWy3W8eA"/>
+      <visibility xmi:id="_jCMW9hTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jCMW9xTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jCMW-BTsEeyciYlWy3W8eA">
+        <modelElement href="SQLite.estudiantes.uml#_is6qgBTsEeyciYlWy3W8eA"/>
+        <type xmi:id="_jCMW-RTsEeyciYlWy3W8eA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jCMW-hTsEeyciYlWy3W8eA" name="supportsOuterJoinForUpdate">
+      <modelElement href="SQLite.estudiantes.uml#_is6qgRTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB3uxxTtEeyciYlWy3W8eA"/>
+      <visibility xmi:id="_jCMW-xTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jCMW_BTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jCMW_RTsEeyciYlWy3W8eA">
+        <modelElement href="SQLite.estudiantes.uml#_is7RkBTsEeyciYlWy3W8eA"/>
+        <type xmi:id="_jCMW_hTsEeyciYlWy3W8eA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jCMW_xTsEeyciYlWy3W8eA" name="getDropForeignKeyString">
+      <modelElement href="SQLite.estudiantes.uml#_is7RkRTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB4V0BTtEeyciYlWy3W8eA"/>
+      <visibility xmi:id="_jCMXABTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jCMXARTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jCMXAhTsEeyciYlWy3W8eA">
+        <modelElement href="SQLite.estudiantes.uml#_is74oBTsEeyciYlWy3W8eA"/>
+        <type xmi:id="_jCMXAxTsEeyciYlWy3W8eA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jCMXBBTsEeyciYlWy3W8eA" name="getAddForeignKeyConstraintString">
+      <modelElement href="SQLite.estudiantes.uml#_is8fsBTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB4V0RTtEeyciYlWy3W8eA"/>
+      <visibility xmi:id="_jCMXBRTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jCMXBhTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jCMXBxTsEeyciYlWy3W8eA">
+        <modelElement href="SQLite.estudiantes.uml#_is9t0BTsEeyciYlWy3W8eA"/>
+        <type xmi:id="_jCMXCBTsEeyciYlWy3W8eA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_jCMXCRTsEeyciYlWy3W8eA" name="constraintName">
+        <modelElement href="SQLite.estudiantes.uml#_is9GwBTsEeyciYlWy3W8eA"/>
+        <cardinality xmi:id="_jCMXChTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+        <type xmi:id="_jCMXCxTsEeyciYlWy3W8eA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jCMXDBTsEeyciYlWy3W8eA" name="foreignKey">
+        <modelElement href="SQLite.estudiantes.uml#_is9GwRTsEeyciYlWy3W8eA"/>
+        <cardinality xmi:id="_jCMXDRTsEeyciYlWy3W8eA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_jCMXDhTsEeyciYlWy3W8eA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jCMXDxTsEeyciYlWy3W8eA" name="referencedTable">
+        <modelElement href="SQLite.estudiantes.uml#_is9GwhTsEeyciYlWy3W8eA"/>
+        <cardinality xmi:id="_jCMXEBTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+        <type xmi:id="_jCMXERTsEeyciYlWy3W8eA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jCMXEhTsEeyciYlWy3W8eA" name="primaryKey">
+        <modelElement href="SQLite.estudiantes.uml#_is9GwxTsEeyciYlWy3W8eA"/>
+        <cardinality xmi:id="_jCMXExTsEeyciYlWy3W8eA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_jCMXFBTsEeyciYlWy3W8eA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jCMXFRTsEeyciYlWy3W8eA" name="referencesPrimaryKey">
+        <modelElement href="SQLite.estudiantes.uml#_is9GxBTsEeyciYlWy3W8eA"/>
+        <cardinality xmi:id="_jCMXFhTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+        <type xmi:id="_jCMXFxTsEeyciYlWy3W8eA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jCMXGBTsEeyciYlWy3W8eA" name="getAddPrimaryKeyConstraintString">
+      <modelElement href="SQLite.estudiantes.uml#_is-U4BTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB4V0hTtEeyciYlWy3W8eA"/>
+      <visibility xmi:id="_jCMXGRTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jCMXGhTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jCMXGxTsEeyciYlWy3W8eA">
+        <modelElement href="SQLite.estudiantes.uml#_is-U4hTsEeyciYlWy3W8eA"/>
+        <type xmi:id="_jCMXHBTsEeyciYlWy3W8eA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_jCMXHRTsEeyciYlWy3W8eA" name="constraintName">
+        <modelElement href="SQLite.estudiantes.uml#_is-U4RTsEeyciYlWy3W8eA"/>
+        <cardinality xmi:id="_jCMXHhTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+        <type xmi:id="_jCMXHxTsEeyciYlWy3W8eA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jCMXIBTsEeyciYlWy3W8eA" name="supportsIfExistsBeforeTableName">
+      <modelElement href="SQLite.estudiantes.uml#_is-78BTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB4V0xTtEeyciYlWy3W8eA"/>
+      <visibility xmi:id="_jCMXIRTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jCMXIhTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jCMXIxTsEeyciYlWy3W8eA">
+        <modelElement href="SQLite.estudiantes.uml#_is-78RTsEeyciYlWy3W8eA"/>
+        <type xmi:id="_jCMXJBTsEeyciYlWy3W8eA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jCMXJRTsEeyciYlWy3W8eA" name="supportsCascadeDelete">
+      <modelElement href="SQLite.estudiantes.uml#_is-78hTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB4V1BTtEeyciYlWy3W8eA"/>
+      <visibility xmi:id="_jCMXJhTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jCMXJxTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jCMXKBTsEeyciYlWy3W8eA">
+        <modelElement href="SQLite.estudiantes.uml#_is_jABTsEeyciYlWy3W8eA"/>
+        <type xmi:id="_jCMXKRTsEeyciYlWy3W8eA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jCeDwBTsEeyciYlWy3W8eA" name="Estudiante">
+    <modelElement href="SQLite.estudiantes.uml#_isl6YBTsEeyciYlWy3W8eA"/>
+    <visualProperties xmi:id="_jCeDwRTsEeyciYlWy3W8eA" position="-633.0,-206.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_jCeDwhTsEeyciYlWy3W8eA" name="JPA1StyledElement">
+      <modelElement href="SQLite.estudiantes.uml#_isnvkBTsEeyciYlWy3W8eA"/>
+    </stereotypes>
+    <visibility xmi:id="_jCeDwxTsEeyciYlWy3W8eA" label="+"/>
+    <attributes xmi:id="_jCeDxBTsEeyciYlWy3W8eA" name="id">
+      <modelElement href="SQLite.estudiantes.uml#_i3XnABTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB4V1RTtEeyciYlWy3W8eA"/>
+      <stereotypes xmi:id="_jCeDxRTsEeyciYlWy3W8eA" name="PrimaryKey">
+        <modelElement href="SQLite.estudiantes.uml#_i3XnARTsEeyciYlWy3W8eA"/>
+      </stereotypes>
+      <visibility xmi:id="_jCeDxhTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jCeDxxTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <type xmi:id="_jCeDyBTsEeyciYlWy3W8eA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jCeDyRTsEeyciYlWy3W8eA" name="name">
+      <modelElement href="SQLite.estudiantes.uml#_i3Y1IBTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB484BTtEeyciYlWy3W8eA"/>
+      <stereotypes xmi:id="_jCeDyhTsEeyciYlWy3W8eA" name="StyledElement">
+        <modelElement href="SQLite.estudiantes.uml#_i3Y1IRTsEeyciYlWy3W8eA"/>
+      </stereotypes>
+      <visibility xmi:id="_jCeDyxTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jCeDzBTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <type xmi:id="_jCeDzRTsEeyciYlWy3W8eA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jCeDzhTsEeyciYlWy3W8eA" name="email">
+      <modelElement href="SQLite.estudiantes.uml#_i3ZcMBTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB484RTtEeyciYlWy3W8eA"/>
+      <stereotypes xmi:id="_jCeDzxTsEeyciYlWy3W8eA" name="StyledElement">
+        <modelElement href="SQLite.estudiantes.uml#_i3ZcMRTsEeyciYlWy3W8eA"/>
+      </stereotypes>
+      <visibility xmi:id="_jCeD0BTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jCeD0RTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <type xmi:id="_jCeD0hTsEeyciYlWy3W8eA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jCeD0xTsEeyciYlWy3W8eA" name="curso">
+      <modelElement href="SQLite.estudiantes.uml#_i3ZcMhTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB484hTtEeyciYlWy3W8eA"/>
+      <stereotypes xmi:id="_jCeD1BTsEeyciYlWy3W8eA" name="StyledElement">
+        <modelElement href="SQLite.estudiantes.uml#_i3ZcMxTsEeyciYlWy3W8eA"/>
+      </stereotypes>
+      <visibility xmi:id="_jCeD1RTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jCeD1hTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <type xmi:id="_jCeD1xTsEeyciYlWy3W8eA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_jCeD2BTsEeyciYlWy3W8eA" name="Estudiante">
+      <modelElement href="SQLite.estudiantes.uml#_iso9sBTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB484xTtEeyciYlWy3W8eA"/>
+      <keywords xmi:id="_jCeD2RTsEeyciYlWy3W8eA" keyword="create"/>
+      <stereotypes xmi:id="_jCeD2hTsEeyciYlWy3W8eA" name="LegacyStyledElement">
+        <modelElement href="SQLite.estudiantes.uml#_ispkwBTsEeyciYlWy3W8eA"/>
+      </stereotypes>
+      <visibility xmi:id="_jCeD2xTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jCeD3BTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jCeD3RTsEeyciYlWy3W8eA">
+        <modelElement href="SQLite.estudiantes.uml#_ispkwRTsEeyciYlWy3W8eA"/>
+        <type xmi:id="_jCeD3hTsEeyciYlWy3W8eA" name="Estudiante">
+          <modelElement href="SQLite.estudiantes.uml#_isl6YBTsEeyciYlWy3W8eA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jCeD3xTsEeyciYlWy3W8eA" name="toString">
+      <modelElement href="SQLite.estudiantes.uml#_ispkwhTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB5j8BTtEeyciYlWy3W8eA"/>
+      <stereotypes xmi:id="_jCeD4BTsEeyciYlWy3W8eA" name="LegacyStyledElement">
+        <modelElement href="SQLite.estudiantes.uml#_isqL0RTsEeyciYlWy3W8eA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_jCeD4RTsEeyciYlWy3W8eA" name="Annotations">
+        <modelElement href="SQLite.estudiantes.uml#_isqy4BTsEeyciYlWy3W8eA"/>
+      </stereotypes>
+      <visibility xmi:id="_jCeD4hTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jCeD4xTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jCeD5BTsEeyciYlWy3W8eA">
+        <modelElement href="SQLite.estudiantes.uml#_isqL0BTsEeyciYlWy3W8eA"/>
+        <type xmi:id="_jCeD5RTsEeyciYlWy3W8eA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_jCn0wBTsEeyciYlWy3W8eA" name="EstudianteRepository" associationsIn="_jCkxcBTsEeyciYlWy3W8eA">
+    <modelElement href="SQLite.estudiantes.uml#_isd-kBTsEeyciYlWy3W8eA"/>
+    <visualProperties xmi:id="_jCn0wRTsEeyciYlWy3W8eA" position="-1033.0,43.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_jCn0whTsEeyciYlWy3W8eA" name="LegacyStyledElement">
+      <modelElement href="SQLite.estudiantes.uml#_iseloBTsEeyciYlWy3W8eA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_jCn0wxTsEeyciYlWy3W8eA" name="Annotations">
+      <modelElement href="SQLite.estudiantes.uml#_iskFMBTsEeyciYlWy3W8eA"/>
+    </stereotypes>
+    <visibility xmi:id="_jCn0xBTsEeyciYlWy3W8eA" label="+"/>
+    <operations xmi:id="_jCn0xRTsEeyciYlWy3W8eA" name="existsByEmail">
+      <modelElement href="SQLite.estudiantes.uml#_isfMsBTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB5j8RTtEeyciYlWy3W8eA"/>
+      <stereotypes xmi:id="_jCn0xhTsEeyciYlWy3W8eA" name="StyledElement">
+        <modelElement href="SQLite.estudiantes.uml#_isfMsxTsEeyciYlWy3W8eA"/>
+      </stereotypes>
+      <visibility xmi:id="_jCn0xxTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jCn0yBTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jCn0yRTsEeyciYlWy3W8eA">
+        <modelElement href="SQLite.estudiantes.uml#_isfMshTsEeyciYlWy3W8eA"/>
+        <type xmi:id="_jCn0yhTsEeyciYlWy3W8eA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_jCn0yxTsEeyciYlWy3W8eA" name="email">
+        <modelElement href="SQLite.estudiantes.uml#_isfMsRTsEeyciYlWy3W8eA"/>
+        <cardinality xmi:id="_jCn0zBTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+        <type xmi:id="_jCn0zRTsEeyciYlWy3W8eA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jCn0zhTsEeyciYlWy3W8eA" name="findByEmail">
+      <modelElement href="SQLite.estudiantes.uml#_isfzwBTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB5j8hTtEeyciYlWy3W8eA"/>
+      <stereotypes xmi:id="_jCn0zxTsEeyciYlWy3W8eA" name="StyledElement">
+        <modelElement href="SQLite.estudiantes.uml#_isga0BTsEeyciYlWy3W8eA"/>
+      </stereotypes>
+      <visibility xmi:id="_jCn00BTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jCn00RTsEeyciYlWy3W8eA" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_jCn00hTsEeyciYlWy3W8eA">
+        <modelElement href="SQLite.estudiantes.uml#_isfzwhTsEeyciYlWy3W8eA"/>
+        <type xmi:id="_jCn00xTsEeyciYlWy3W8eA" name="Estudiante">
+          <modelElement href="SQLite.estudiantes.uml#_isl6YBTsEeyciYlWy3W8eA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_jCn01BTsEeyciYlWy3W8eA" name="email">
+        <modelElement href="SQLite.estudiantes.uml#_isfzwRTsEeyciYlWy3W8eA"/>
+        <cardinality xmi:id="_jCn01RTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+        <type xmi:id="_jCn01hTsEeyciYlWy3W8eA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jCn01xTsEeyciYlWy3W8eA" name="findByCurso">
+      <modelElement href="SQLite.estudiantes.uml#_ishB4BTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB5j8xTtEeyciYlWy3W8eA"/>
+      <stereotypes xmi:id="_jCn02BTsEeyciYlWy3W8eA" name="StyledElement">
+        <modelElement href="SQLite.estudiantes.uml#_isho8hTsEeyciYlWy3W8eA"/>
+      </stereotypes>
+      <visibility xmi:id="_jCn02RTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jCn02hTsEeyciYlWy3W8eA" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_jCn02xTsEeyciYlWy3W8eA">
+        <modelElement href="SQLite.estudiantes.uml#_isho8BTsEeyciYlWy3W8eA"/>
+        <type xmi:id="_jCn03BTsEeyciYlWy3W8eA" name="Estudiante">
+          <modelElement href="SQLite.estudiantes.uml#_isl6YBTsEeyciYlWy3W8eA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_jCn03RTsEeyciYlWy3W8eA" name="curso">
+        <modelElement href="SQLite.estudiantes.uml#_ishB4RTsEeyciYlWy3W8eA"/>
+        <cardinality xmi:id="_jCn03hTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+        <type xmi:id="_jCn03xTsEeyciYlWy3W8eA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jCn04BTsEeyciYlWy3W8eA" name="findMaxId">
+      <modelElement href="SQLite.estudiantes.uml#_isiQABTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB5j9BTtEeyciYlWy3W8eA"/>
+      <stereotypes xmi:id="_jCn04RTsEeyciYlWy3W8eA" name="Annotations">
+        <modelElement href="SQLite.estudiantes.uml#_isi3ERTsEeyciYlWy3W8eA"/>
+      </stereotypes>
+      <visibility xmi:id="_jCn04hTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jCn04xTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jCn05BTsEeyciYlWy3W8eA">
+        <modelElement href="SQLite.estudiantes.uml#_isi3EBTsEeyciYlWy3W8eA"/>
+        <type xmi:id="_jCn05RTsEeyciYlWy3W8eA" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jCvwkBTsEeyciYlWy3W8eA" name="EstudianteService" associationsIn="_jB6qIBTsEeyciYlWy3W8eA" associationsOut="_jCkxcBTsEeyciYlWy3W8eA">
+    <modelElement href="SQLite.estudiantes.uml#_isU0oBTsEeyciYlWy3W8eA"/>
+    <visualProperties xmi:id="_jCvwkRTsEeyciYlWy3W8eA" position="-749.0,237.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_jCvwkhTsEeyciYlWy3W8eA" name="LegacyStyledElement">
+      <modelElement href="SQLite.estudiantes.uml#_isVbsBTsEeyciYlWy3W8eA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_jCvwkxTsEeyciYlWy3W8eA" name="Annotations">
+      <modelElement href="SQLite.estudiantes.uml#_isa7QBTsEeyciYlWy3W8eA"/>
+    </stereotypes>
+    <visibility xmi:id="_jCvwlBTsEeyciYlWy3W8eA" label="+"/>
+    <attributes xmi:id="_jCvwlRTsEeyciYlWy3W8eA" name="estudianteRepository">
+      <modelElement href="SQLite.estudiantes.uml#_i3Vx0BTsEeyciYlWy3W8eA"/>
+      <visibility xmi:id="_jCvwlhTsEeyciYlWy3W8eA" label="-"/>
+      <cardinality xmi:id="_jCvwlxTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <type xmi:id="_jCvwmBTsEeyciYlWy3W8eA" name="EstudianteRepository">
+        <modelElement href="SQLite.estudiantes.uml#_isd-kBTsEeyciYlWy3W8eA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_jCvwmRTsEeyciYlWy3W8eA" name="readEstudiantes">
+      <modelElement href="SQLite.estudiantes.uml#_isWp0BTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB6LABTtEeyciYlWy3W8eA"/>
+      <stereotypes xmi:id="_jCvwmhTsEeyciYlWy3W8eA" name="StyledElement">
+        <modelElement href="SQLite.estudiantes.uml#_isXQ4BTsEeyciYlWy3W8eA"/>
+      </stereotypes>
+      <visibility xmi:id="_jCvwmxTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jCvwnBTsEeyciYlWy3W8eA" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_jCvwnRTsEeyciYlWy3W8eA">
+        <modelElement href="SQLite.estudiantes.uml#_isWp0RTsEeyciYlWy3W8eA"/>
+        <type xmi:id="_jCvwnhTsEeyciYlWy3W8eA" name="Estudiante">
+          <modelElement href="SQLite.estudiantes.uml#_isl6YBTsEeyciYlWy3W8eA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jCvwnxTsEeyciYlWy3W8eA" name="readByCurso">
+      <modelElement href="SQLite.estudiantes.uml#_isYfABTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB6LARTtEeyciYlWy3W8eA"/>
+      <stereotypes xmi:id="_jCvwoBTsEeyciYlWy3W8eA" name="StyledElement">
+        <modelElement href="SQLite.estudiantes.uml#_isZtIBTsEeyciYlWy3W8eA"/>
+      </stereotypes>
+      <visibility xmi:id="_jCvwoRTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jCvwohTsEeyciYlWy3W8eA" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_jCvwoxTsEeyciYlWy3W8eA">
+        <modelElement href="SQLite.estudiantes.uml#_isYfAhTsEeyciYlWy3W8eA"/>
+        <type xmi:id="_jCvwpBTsEeyciYlWy3W8eA" name="Estudiante">
+          <modelElement href="SQLite.estudiantes.uml#_isl6YBTsEeyciYlWy3W8eA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_jCvwpRTsEeyciYlWy3W8eA" name="lcurso">
+        <modelElement href="SQLite.estudiantes.uml#_isYfARTsEeyciYlWy3W8eA"/>
+        <cardinality xmi:id="_jCvwphTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+        <type xmi:id="_jCvwpxTsEeyciYlWy3W8eA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jCvwqBTsEeyciYlWy3W8eA" name="createEstudiante">
+      <modelElement href="SQLite.estudiantes.uml#_i1VmsBTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB6LAhTtEeyciYlWy3W8eA"/>
+      <stereotypes xmi:id="_jCvwqRTsEeyciYlWy3W8eA" name="Annotations">
+        <modelElement href="SQLite.estudiantes.uml#_i1WNwRTsEeyciYlWy3W8eA"/>
+      </stereotypes>
+      <visibility xmi:id="_jCvwqhTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jCvwqxTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jCvwrBTsEeyciYlWy3W8eA">
+        <modelElement href="SQLite.estudiantes.uml#_i1WNwBTsEeyciYlWy3W8eA"/>
+        <type xmi:id="_jCvwrRTsEeyciYlWy3W8eA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_jCvwrhTsEeyciYlWy3W8eA" name="estudiante">
+        <modelElement href="SQLite.estudiantes.uml#_i1VmsRTsEeyciYlWy3W8eA"/>
+        <cardinality xmi:id="_jCvwrxTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+        <type xmi:id="_jCvwsBTsEeyciYlWy3W8eA" name="Estudiante">
+          <modelElement href="SQLite.estudiantes.uml#_isl6YBTsEeyciYlWy3W8eA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jCvwsRTsEeyciYlWy3W8eA" name="updateEstudiante">
+      <modelElement href="SQLite.estudiantes.uml#_i1W00BTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB6LAxTtEeyciYlWy3W8eA"/>
+      <stereotypes xmi:id="_jCvwshTsEeyciYlWy3W8eA" name="Annotations">
+        <modelElement href="SQLite.estudiantes.uml#_i1Xb4BTsEeyciYlWy3W8eA"/>
+      </stereotypes>
+      <visibility xmi:id="_jCvwsxTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jCvwtBTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jCvwtRTsEeyciYlWy3W8eA">
+        <modelElement href="SQLite.estudiantes.uml#_i1W00hTsEeyciYlWy3W8eA"/>
+        <type xmi:id="_jCvwthTsEeyciYlWy3W8eA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_jCvwtxTsEeyciYlWy3W8eA" name="estudiante">
+        <modelElement href="SQLite.estudiantes.uml#_i1W00RTsEeyciYlWy3W8eA"/>
+        <cardinality xmi:id="_jCvwuBTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+        <type xmi:id="_jCvwuRTsEeyciYlWy3W8eA" name="Estudiante">
+          <modelElement href="SQLite.estudiantes.uml#_isl6YBTsEeyciYlWy3W8eA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jCvwuhTsEeyciYlWy3W8eA" name="deleteEstudiante">
+      <modelElement href="SQLite.estudiantes.uml#_i1Xb4hTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB6LBBTtEeyciYlWy3W8eA"/>
+      <stereotypes xmi:id="_jCvwuxTsEeyciYlWy3W8eA" name="Annotations">
+        <modelElement href="SQLite.estudiantes.uml#_i1YC8RTsEeyciYlWy3W8eA"/>
+      </stereotypes>
+      <visibility xmi:id="_jCvwvBTsEeyciYlWy3W8eA" label="+"/>
+      <cardinality xmi:id="_jCvwvRTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jCvwvhTsEeyciYlWy3W8eA">
+        <modelElement href="SQLite.estudiantes.uml#_i1YC8BTsEeyciYlWy3W8eA"/>
+        <type xmi:id="_jCvwvxTsEeyciYlWy3W8eA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_jCvwwBTsEeyciYlWy3W8eA" name="estudiante">
+        <modelElement href="SQLite.estudiantes.uml#_i1Xb4xTsEeyciYlWy3W8eA"/>
+        <cardinality xmi:id="_jCvwwRTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+        <type xmi:id="_jCvwwhTsEeyciYlWy3W8eA" name="Estudiante">
+          <modelElement href="SQLite.estudiantes.uml#_isl6YBTsEeyciYlWy3W8eA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jDCEcBTsEeyciYlWy3W8eA" name="SpringBootAndSqLiteApplicationTests">
+    <modelElement href="SQLite.estudiantes.uml#_isRxURTsEeyciYlWy3W8eA"/>
+    <visualProperties xmi:id="_jDCEcRTsEeyciYlWy3W8eA" position="-653.0,23.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_jDCEchTsEeyciYlWy3W8eA" name="LegacyStyledElement">
+      <modelElement href="SQLite.estudiantes.uml#_isS_cBTsEeyciYlWy3W8eA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_jDCEcxTsEeyciYlWy3W8eA" name="Annotations">
+      <modelElement href="SQLite.estudiantes.uml#_isUNkRTsEeyciYlWy3W8eA"/>
+    </stereotypes>
+    <visibility xmi:id="_jDCEdBTsEeyciYlWy3W8eA" label="~"/>
+    <operations xmi:id="_jDCEdRTsEeyciYlWy3W8eA" name="contextLoads">
+      <modelElement href="SQLite.estudiantes.uml#_isS_cRTsEeyciYlWy3W8eA"/>
+      <visualProperties xmi:id="_IB6yEBTtEeyciYlWy3W8eA"/>
+      <stereotypes xmi:id="_jDCEdhTsEeyciYlWy3W8eA" name="Annotations">
+        <modelElement href="SQLite.estudiantes.uml#_isTmgBTsEeyciYlWy3W8eA"/>
+      </stereotypes>
+      <visibility xmi:id="_jDCEdxTsEeyciYlWy3W8eA" label="~"/>
+      <cardinality xmi:id="_jDCEeBTsEeyciYlWy3W8eA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
